@@ -1,0 +1,172 @@
+.App {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #012e40;
+}
+
+.todo-item {
+    color: #ffffff;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 20px;
+    background-color: #3ca6a6;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.desc {
+    font-family: Roboto, sans-serif;
+    background-color: #3ca6a6;
+    border-radius: 10px;
+    border: 0;
+    width: 254px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.title:focus::placeholder,
+.desc:focus::placeholder {
+    color: transparent;
+}
+
+.title:focus,
+.desc:focus {
+    outline: 0;
+}
+
+.title::placeholder,
+.desc::placeholder {
+    font-family: Roboto, sans-serif;
+    color: #000000;
+}
+
+h1 {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+}
+
+.Ctbtn {
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #5167ca;
+    padding: 20px;
+    border: 0;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.Ctbtn:hover {
+    background-color: #6580f6;
+}
+
+.Delete,
+.complete {
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #5167ca;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 0;
+}
+
+.complete:hover,
+.Delete:hover {
+    background-color: #6580f6;
+}
+
+.tacompleted {
+    position: relative;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.form {
+    font-family: Roboto, sans-serif;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #026773;
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 20%;
+    /* margin-top: 20px; */
+}
+
+.line {
+    background-color: #3ca6a6;
+    padding: 0.25px;
+}
+
+
+/* .tatodo-list {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.tatodo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 30rem));
+    justify-content: center;
+}
+
+.tatodo-taitem {
+    margin-bottom: 15px;
+}
+
+.tatodo {
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    word-break: break-all;
+    white-space: pre-wrap;
+    height: 300px;
+    padding: 0 20px 20px 20px;
+    margin: 15px;
+    overflow: hidden;
+    background-color: #026773;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.srno {
+    color: #012e40;
+    text-align: justify;
+    /* margin-bottom: 0; */
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #026773;
+    border-radius: 10px;
+}
+
+
+/* #012E40
+#024959
+#026773
+#3CA6A6
+#F2E3D5 */
